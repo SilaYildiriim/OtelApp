@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OtelUygulaması.Dal.IRepositories\OtelUygulaması.Dal.IRepositories.csproj" />
+    <ProjectReference Include="..\OtelUygulaması.Dal\OtelUygulaması.Dal.csproj" />
+  </ItemGroup>
+
+</Project>
