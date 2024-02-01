@@ -36,6 +36,8 @@ namespace OtelUygulaması.Core
             return _context.Set<TEntity>().FirstOrDefault(x => x.Id == id);
         }
 
+        
+
         public int Update(TEntity entity)
         {
             _context.Update(entity);

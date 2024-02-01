@@ -11,12 +11,12 @@
   <ItemGroup>
     <Folder Include="CustomerForms\" />
     <Folder Include="BookingForms\" />
-    <Folder Include="EmployeeForms\" />
     <Folder Include="RoomForms\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\OtelUygulaması.BLL.Service\OtelUygulaması.BLL.Service.csproj" />
+    <ProjectReference Include="..\OtelUygulamasıEnums\OtelUygulamasıEnums.csproj" />
   </ItemGroup>
 
 </Project>

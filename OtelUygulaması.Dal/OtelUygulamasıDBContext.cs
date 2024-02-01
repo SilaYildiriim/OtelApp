@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using OtelUygulaması.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,7 @@ namespace OtelUygulaması.Dal
 {
     public class OtelUygulamasıDBContext : DbContext
     {
+        public DbSet<Employee> Employees { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=DESKTOP-JI3UVS4;Database=Onl7OtelUygulamasıDb;Uid=sa;Pwd=123");
@@ -23,6 +25,11 @@ namespace OtelUygulaması.Dal
 
 
 
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new EntityTypeConfiguration.EmployeeTypeConfiguration());
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

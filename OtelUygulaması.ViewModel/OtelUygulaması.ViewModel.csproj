@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="CustomerVM\" />
     <Folder Include="BookingVM\" />
-    <Folder Include="EmployeeVM\" />
     <Folder Include="RoomVM\" />
   </ItemGroup>
 

@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 
 namespace OtelUygulaması.Dal.IRepositories
 {
-    public interface IEmployeeRepositories:IBaseRepository<Employee>
+    public interface IEmployeeRepositories : IBaseRepository<Employee>
     {
+        
     }
 }

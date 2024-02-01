@@ -12,8 +12,9 @@ namespace OtelUygulaması.Dal.Repositories
 {
     public class EmployeeRepositories : BaseRepository<Employee>, IEmployeeRepositories
     {
-        public EmployeeRepositories(DbContext db) : base(db)
+        public EmployeeRepositories(DbContext db=null) : base(db?? new OtelUygulamasıDBContext())
         {
+            
         }
     }
 }
