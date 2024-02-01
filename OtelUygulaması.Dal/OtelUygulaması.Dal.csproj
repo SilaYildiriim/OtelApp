@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="EntityTypeConfiguration\" />
+    <ProjectReference Include="..\OtelUygulaması.Entities\OtelUygulaması.Entities.csproj" />
   </ItemGroup>
 
 </Project>

@@ -13,5 +13,6 @@ namespace OtelUygulaması.Core
         int Delete(TEntity entity);
 
         ICollection<TEntity> GetAll();
+        TEntity GetByID(int id);
     }
 }

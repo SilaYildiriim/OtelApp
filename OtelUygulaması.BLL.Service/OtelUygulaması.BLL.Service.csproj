@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OtelUygulaması.Bll.IService\OtelUygulaması.Bll.IService.csproj" />
+    <ProjectReference Include="..\OtelUygulaması.Dal.IRepositories\OtelUygulaması.Dal.IRepositories.csproj" />
+    <ProjectReference Include="..\OtelUygulaması.Dal.Repositories\OtelUygulaması.Dal.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

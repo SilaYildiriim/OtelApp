@@ -12,7 +12,7 @@ namespace OtelUygulaması.Dal.Repositories
 {
     public class CustomerRepositories : BaseRepository<Customer>, ICustomerRepositories
     {
-        public CustomerRepositories(DbContext db) : base(db)
+        public CustomerRepositories(DbContext db = null) : base(db ?? new OtelUygulamasıDBContext())
         {
         }
     }

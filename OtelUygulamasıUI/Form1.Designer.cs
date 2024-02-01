@@ -36,49 +36,55 @@
             // 
             // btnEmployee
             // 
-            btnEmployee.Location = new Point(136, 219);
+            btnEmployee.Location = new Point(194, 365);
+            btnEmployee.Margin = new Padding(4, 5, 4, 5);
             btnEmployee.Name = "btnEmployee";
-            btnEmployee.Size = new Size(141, 76);
+            btnEmployee.Size = new Size(201, 127);
             btnEmployee.TabIndex = 0;
             btnEmployee.Text = "Employee";
             btnEmployee.UseVisualStyleBackColor = true;
             // 
             // btnCustomer
             // 
-            btnCustomer.Location = new Point(136, 86);
+            btnCustomer.Location = new Point(194, 143);
+            btnCustomer.Margin = new Padding(4, 5, 4, 5);
             btnCustomer.Name = "btnCustomer";
-            btnCustomer.Size = new Size(141, 66);
+            btnCustomer.Size = new Size(201, 110);
             btnCustomer.TabIndex = 1;
             btnCustomer.Text = "Customer";
             btnCustomer.UseVisualStyleBackColor = true;
+            btnCustomer.Click += btnCustomer_Click;
             // 
             // btnRoom
             // 
-            btnRoom.Location = new Point(500, 219);
+            btnRoom.Location = new Point(714, 365);
+            btnRoom.Margin = new Padding(4, 5, 4, 5);
             btnRoom.Name = "btnRoom";
-            btnRoom.Size = new Size(146, 76);
+            btnRoom.Size = new Size(209, 127);
             btnRoom.TabIndex = 2;
             btnRoom.Text = "Room";
             btnRoom.UseVisualStyleBackColor = true;
             // 
             // btnBooking
             // 
-            btnBooking.Location = new Point(500, 86);
+            btnBooking.Location = new Point(714, 143);
+            btnBooking.Margin = new Padding(4, 5, 4, 5);
             btnBooking.Name = "btnBooking";
-            btnBooking.Size = new Size(146, 66);
+            btnBooking.Size = new Size(209, 110);
             btnBooking.TabIndex = 3;
             btnBooking.Text = "Booking";
             btnBooking.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1143, 750);
             Controls.Add(btnBooking);
             Controls.Add(btnRoom);
             Controls.Add(btnCustomer);
             Controls.Add(btnEmployee);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);

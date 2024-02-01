@@ -31,7 +31,7 @@ namespace OtelUygulaması.Core
             return _context.Set<TEntity>().ToList();
         }
 
-        public TEntity GetById(int id)
+        public TEntity GetByID(int id)
         {
             return _context.Set<TEntity>().FirstOrDefault(x => x.Id == id);
         }
